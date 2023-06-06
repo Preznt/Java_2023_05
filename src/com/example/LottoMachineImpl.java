@@ -1,4 +1,4 @@
-package src.example;
+package com.example;
 
 public class LottoMachineImpl implements LottoMachine{
     private Ball[] balls;

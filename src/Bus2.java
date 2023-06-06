@@ -1,4 +1,3 @@
-package src;
 
 public class Bus2 extends Car2 {
     public Bus2() {

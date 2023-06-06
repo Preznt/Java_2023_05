@@ -1,4 +1,3 @@
-package src;
 
 public class Car2Exam02 {
     public static void main(String[] args){

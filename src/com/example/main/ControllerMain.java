@@ -1,7 +1,7 @@
-package src.example.main;
+package com.example.main;
 
-import src.example.fw.Controller;
-import src.example.myproject.FirstController;
+import com.example.fw.Controller;
+import com.example.myproject.FirstController;
 
 public class ControllerMain {
     public static void main(String[] args){

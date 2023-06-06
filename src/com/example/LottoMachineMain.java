@@ -1,4 +1,4 @@
-package src.example;
+package com.example;
 
 public class LottoMachineMain {
     public static void main(String[] args) {

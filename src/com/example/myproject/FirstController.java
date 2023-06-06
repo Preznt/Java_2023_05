@@ -1,6 +1,6 @@
-package src.example.myproject;
+package com.example.myproject;
 
-import src.example.fw.Controller;
+import com.example.fw.Controller;
 
 public class FirstController extends Controller {
     @Override

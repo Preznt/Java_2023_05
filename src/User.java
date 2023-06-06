@@ -1,4 +1,3 @@
-package src;
 
 // 생성자에서 넣어준 값을 리턴해주는 기능만 갖고있는 이런 객체를 불변객체라고 한다
 public class User {

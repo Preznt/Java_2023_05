@@ -1,4 +1,3 @@
-package src;
 
 public abstract class Car2 {
 //    public Car2() {
@@ -16,7 +15,7 @@ public abstract class Car2 {
         System.out.println("Car2 생성자 호출");
     }
 
-    // 추상 메소드, Car2를 만든 사람은 run()이라는 메소드가 필요하다고 생각을 했다
+    // 추상 메소드, Car2를 만든 람은 run()이라는 메소드가 필요하다고 생각을 했다
     // run()은 자동차마다 다르게 구현할 것 같을 떄 사용
     public abstract void run();
 }

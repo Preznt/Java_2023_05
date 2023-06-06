@@ -1,4 +1,3 @@
-package src;
 
 public class UserExam {
     public static void main(String[] args){

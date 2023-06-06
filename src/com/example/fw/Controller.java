@@ -1,4 +1,4 @@
-package src.example.fw;
+package com.example.fw;
 /*
 여러 종류의 Controller를 만들 생각
 초기화 - 같은 코드

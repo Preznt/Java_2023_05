@@ -1,4 +1,4 @@
-package src.example;
+package com.example;
 /*
 1. 1-45까지 써있는 Ball을 로또 기계에 넣는다.
 2. 로또 기계에 있는 Ball을 섞는다.
