@@ -9,6 +9,7 @@ public class Array04 {
         array2 = new ItemForArray[5];
 
         array1[0] = new ItemForArray(3000, "ball");
+        
     }
 
 }
