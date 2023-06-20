@@ -23,7 +23,7 @@ public class ObjectInpuOutExam {
 
     }
 
-    // 객체 직렬화를 이용한 객체 복사 
+    // 객체 직렬화를 이용한 객체 복사
     private static ArrayList<User> copy(ArrayList<User> list) throws IOException, ClassNotFoundException {
         // list 와 함께 list에 포함된 user까지 직렬화가 돼서 ObjectOutputStream을 통해서 써주게 되는데
         // ObjectOutputStream은 ByteArrayOutputStream가 가지고있는 write메소드를 이용해서 ByteArrayOutputStream의 메모리에 써주게 된다

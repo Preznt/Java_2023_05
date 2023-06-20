@@ -2,6 +2,7 @@ package com.example.crm;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -14,7 +15,12 @@ public class UserDao {
         this.filename = filename;
     }
     // 그냥 User 형태의 정보를 저장하면 안되는가?
-    public void saveUser(List<User> list){
+    public void saveUser(Iterator<User> list){
+        List<User> users = new ArrayList<>();
+        while (list.hasNext()){
+            User user = list.next();
+            users.add(user);
+        }
         try(ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(filename))){
             out.writeObject(list);
         }catch(Exception ex){
